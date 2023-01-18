@@ -1,0 +1,22 @@
+.paginado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.li {
+    border: 2px solid beige;
+    padding: 2px;
+    border-radius: 6px;
+    color:beige;
+    font-weight: 500;
+}
+
+.li + .li {
+    margin-left: 4px;
+}
+
+.active{
+    border-bottom: solid 3px rgb(0, 0, 0);    
+}

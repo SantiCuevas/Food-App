@@ -1,0 +1,56 @@
+.div {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../icons/background-landing.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 50px;
+    color: yellow;
+    margin-bottom: 4rem;
+    margin-top: 0.5rem;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.btn {
+    font-weight: bolder;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    border-style: none;
+    font-size: 1.2rem;
+    letter-spacing: .15rem;
+    color:rgb(255, 255, 255);
+    background-color: rgb(247, 243, 59);
+    text-transform: uppercase;
+    cursor: pointer;
+
+    /* display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    border-style: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; */
+}
+
+.btn:hover {
+    background-color: wheat;
+    color:orangered;
+    
+    /* border-style: outset;
+    border-color: buttonborder;
+    border-width: 2px; */
+    /* transform: translateX(0px); */
+    /* transition:  0.5s; */
+  }
